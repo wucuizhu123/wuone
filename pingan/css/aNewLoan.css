@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+.toolbar .title{
+		position: absolute;
+		display: block;
+		padding: 0;
+		font-weight: none !important;
+		line-height: 1rem !important;
+		text-align: center;
+		white-space: nowrap;
+	}
+	.toolbar .toolbar-inner {
+    height: 1rem !important;
+    display: flex;
+    text-align: center;
+}
+.toolbar, .toolbar .title {
+    font-size:13px !important;
+    color: #3d4145;
+	width: 100%;
+}
+	.toolbar .picker-button {
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    height: 1rem !important;
+    line-height: 1rem !important;
+    color: #f1913b;
+    z-index: 1;
+    padding: 0 .5rem;
+}
+.weui-picker-modal .picker-items {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    text-align:center !important;
+    font-size: 16px !important;
+    font-weight: 400;
+    -webkit-mask-box-image: -webkit-linear-gradient(bottom,transparent,transparent 5%,#fff 20%,#fff 80%,transparent 95%,transparent);
+    -webkit-mask-box-image: linear-gradient(to top,transparent,transparent 5%,#fff 20%,#fff 80%,transparent 95%,transparent);
+}
+html,body {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+html,body,img,a,p,div,h3,h4,dl,ol,ul,li {
+	font-family: PingFangSC-Regular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0px;
+	padding: 0px;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	color: #555555;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+	color: #dadada;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+ /* Mozilla Firefox 4 to 18 */
+	color: #dadada;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+	color: #dadada;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+	color: #dadada;
+}
+
+textarea {
+	-webkit-appearance: none;
+}
+
+ul,li,ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+	-webkit-user-select: none;
+}
+
+a,a:hover {
+	text-decoration: none;
+}
+
+.clearfix {
+	zoom: 1;
+	display: block
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.regbox-1 {
+	position: relative;
+	min-height: 100vh;
+	max-width: 600px;
+	margin: 0 auto;
+	background: #f3f3f3 url("../images/bg01.png") no-repeat left top;
+	background-size: 100% auto;
+}
+
+.regbox-1 .regbox-2 {
+	position: relative;
+	width: 92%;
+	top: 3.4rem;
+	margin: 0 auto;
+	background: #ffffff;
+	clear: both;
+	overflow: hidden;
+	border-radius: 0.2rem;
+}
+
+.regbox-1 .reg-wrap {
+	padding: 3px 25px 3px 25px;
+}
+
+.regbox-1 .reg-wrap .bar {
+	position: relative;
+	margin: 0.43rem auto 0;
+	height: 1.1rem;
+	background: #f4f4f4;
+	border-radius: 0.1rem;
+}
+
+.regbox-1 .reg-wrap .bar input[type=text],.regbox-1 .reg-wrap .bar input[type=password] {
+	float: left;
+	height: 1.1rem;
+	width: calc(100% - 2.8rem);
+	color: #666;
+	font-size: 0.37rem;
+	background: transparent;
+	font-size: 0.4rem;
+	background: #f4f4f4;
+	border-radius: 0.1rem;
+}
+
+.regbox-1 .reg-wrap .bar label {
+	display: block;
+	float: left;
+	width: 2.0rem;
+	line-height: 1.2rem;
+	font-size: 0.4rem;
+	text-align: left;
+	padding-left: 0.4rem;
+	color: #555555;
+	margin-right: 0.2rem;
+}
+
+.regbox-1 .reg-wrap .prot {
+	width: 100%;
+	margin: 0.47rem 0 0.47rem 0.2rem;
+	font-size: 12px;
+	color: #555555;
+	text-align: center;
+}
+
+.regbox-1 .reg-wrap .prot a {
+	text-decoration: underline;
+	color: #555555;
+}
+
+.regbox-1 .reg-wrap .prot input[type=checkbox] {
+	width: 0.47rem;
+	height: 0.47rem;
+	vertical-align: middle;
+	margin-right: 0.08rem;
+}
+
+.regbox-1 .car_btn a {
+	color: #ffffff;
+}
+
+.regbox-1 .car_btn {
+	margin: 0 auto;
+	display: block;
+	line-height: 1.17rem;
+	background: #f1913b;
+	box-shadow: 0px 8px 29px 0px rgba(241,145,59,0.7);
+	border-radius: 1rem;
+	color: #fff;
+	font-size: 0.5rem;
+	text-align: center;
+	margin-top: 0.5rem;
+	position: relative;
+}
+
+.regbox-1 .part_3 {
+	width: 92%;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 0.2rem;
+	font-size: 13px;
+	margin-top: 3.7rem;
+	position: relative;
+}
+
+.regbox-1 .part_3 .text_1 img {
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.regbox-1 .part_3 .text_1 {
+	width: 33.3%;
+	text-align: center;
+	height: auto;
+	float: left;
+	font-size: 13px;
+	padding: 5px 0px 10px 10px;
+	box-sizing: border-box;
+}
+
+.regbox-1 .part_3 .text_1 .textCost {
+	padding-top: 0.2rem;
+	padding-bottom: 0.1rem;
+}
+
+.regbox-1 .part_3 .text_1 .textPri {
+	display: block;
+	border-radius: 1rem;
+	padding: 2px;
+	white-space: nowrap;
+}
+
+.new-text {
+	width: 92%;
+	padding: 10px 5px 20px 5px;
+	margin: 0 auto;
+	color: #bfbfbf;
+	font-size: 13px;
+}
+
+.new-text p {
+	padding-top: 5px;
+}

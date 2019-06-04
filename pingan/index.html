@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <!--<script src="js/echarts.js"></script>-->
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 600px;height:400px;"></div>
+<script src="https://cdn.bootcss.com/echarts/3.8.4/echarts.js"></script>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    option = {
+        title: {
+            text: '知识点得分率',
+            left: 'center'
+        },
+        tooltip: {},
+        legend: {
+            data: ['刘德华', '班级平均'],
+            bottom: 0
+        },
+        radar: {
+//             shape: 'circle',
+            indicator: [
+                { name: '实数', max: 100},
+                { name: '代数', max: 100},
+                { name: '整数', max: 100},
+                { name: '分数', max: 100},
+                { name: '分式', max: 100},
+            ],
+            radius: 120,
+            axisLabel:{
+                show:true,
+                color:'#333',
+                showMinLabel: false
+            },
+        },
+        series: [{
+            name: '预算 vs 开销',
+            type: 'radar',
+//             areaStyle: {normal: {}},
+            data : [
+                {
+                    value : [50, 70, 88, 95, 50, 19],
+                    name : '刘德华',
+//                    label: {
+//                        normal: {
+//                            show: true
+//                        }
+//                    }
+                },
+                {
+                    value : [50, 84, 58, 71, 42, 81],
+                    name : '班级平均',
+//                    label: {
+//                        normal: {
+//                            show: true
+//                        }
+//                    }
+                }
+            ]
+        }],
+        color:['#fa610e','#00aaee']
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>
+</body>
+</html>
