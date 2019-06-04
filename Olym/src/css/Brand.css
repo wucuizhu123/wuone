@@ -1,0 +1,245 @@
+	.table1{
+		width:100%;
+		height:28.75rem;
+		overflow: auto;
+		background:#fff;
+		text-align:center;
+   	     margin:0 auto;
+	}
+	*{
+		font-family:verdana;
+	}
+.table1	table {
+	    width:100%;
+		height:28.75rem;
+		margin: 0 auto;
+		padding: 0;
+		font-family: verdana;
+		font-size: 11px;
+		color: #333333;
+		border-width: 1px;
+		border-color: #666666;
+		border-collapse: collapse;
+	}
+	.el-table .cell{
+		padding:0px !important;
+	}
+
+	.el-row{
+		margin-top:1.2rem;
+		margin-bottom:1.9rem;
+	}
+	
+.table1	table th {
+		/*width: 80px;
+		height: 18px;*/
+		border-width: 1px;
+		border-style: solid;
+		border-color: #dedede;
+		padding: 0;
+		border-bottom: 1px solid #dedede;
+		padding: 8px;
+		background-color: #dedede;
+	}
+	#hidd{
+		width:100%;
+		height:15rem;
+		position:absolute;
+		z-index:1000;
+		background:#fff;
+		opacity:0.8;
+		line-height:240px;
+	}
+	
+.table1	table td {
+		/*width: 80px;
+		height: 18px;*/
+		padding: 0;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #ffffff;
+		padding: 8px;
+		border-bottom: 1px solid #dedede;
+		background-color: #ffffff;
+	}
+	
+	#myChart {
+		width:100%;
+		height:100%;
+		background:#fff;
+		float:left;
+		border:1px solid #dedede;
+	 box-shadow:2px 5px 10px 5px #dedede ;
+		/*margin: 0 auto;*/
+		background:#fff;
+	}
+	.hh{
+		width:30%;
+		height:28.75rem;
+		background:#fff;
+		float:left;
+		
+	}
+	.paimh{
+		width:70%;
+		height:25rem;
+		border:1px solid #ccc;
+		border-radius: 15px;
+		
+		margin:0 auto;
+		margin-top:1.7rem;
+	}
+	.el-col{
+		text-align:center;
+		margin:0 auto;
+		position: relative;
+		/*background:#fff;*/
+	}
+	
+	.hello {
+		width: 6.25rem;
+		height: 3.125rem;
+		/*background: #eeeeee;*/
+	}
+	
+	.block {
+	
+		width:100%;
+		height:auto;
+		text-align:center;
+	     margin-top:0.625rem;
+		margin-bottom: 1.25rem;
+	}
+	.mar {
+		width: 12.5rem;
+		height: 3.125rem;
+	}
+	#scorll{
+		width:93%;
+	    height:100%;
+	   /* background:#f00;*/
+	    margin:0 auto;
+	   
+	}
+	.comen{
+	width:15% !important;
+	}
+	#shi {
+		width: 12.5rem;
+	}
+	#yy{
+    width:auto;
+	height:100%;
+	text-align:center;
+	background:#fff;
+	
+	}
+	table {
+		font-family: verdana, arial, sans-serif;
+		font-size: 11px;
+		border: 1px solid #000;
+	}
+	.tal{
+		width:100%;
+		position:;
+		display:inline-block;
+		margin:0 auto;
+		background:#fff;
+		z-index:1;
+		border:1px solid #dedede;
+	    box-shadow:2px 5px 10px 5px #dedede ;
+		
+	  
+	}
+	.tabla{
+		width:100%;
+		height:11.25rem;
+		/*margin:0 auto;*/
+		/*margin-top:10px;
+		margin-bottom:20px;*/
+		
+	}
+	.tabla th{
+		width:6.25rem;
+		height:2.18rem;
+	}
+	.notef{
+		width:100%;
+		height:11.25rem;
+		background:#fff;
+	}
+	#tab{
+	   width:100%;
+	   height:2.5rem;
+	   font-size:12px;
+	   /*margin-top:20px;*/
+	   font-family:verdana, arial, sans-serif;
+	   font-weight:bolder;
+	   background-color:#fff;
+	   text-align:center;
+	   margin:0 auto;
+	   
+	   /*margin-left:170px;*/
+	   
+   }
+   #tab .dd{
+   	background:#dedede;
+   }
+   .aa{
+        background:#FF0000;
+        font-size:7px;
+    }
+    .class-a{
+        background:#ffff00;
+    }
+    .class-b{
+    	background:#00ff00;
+    }
+   .con{
+   	color:#ffcb2b;
+   }
+   .ji{
+   	color:#002060;
+   }
+   .sm{
+   	color:#7f3500;
+   }
+   th{
+   	width:5rem;
+   	height:2rem;
+   }
+   .tabla span{
+   	display:inline-block;
+   	font-size:2px;
+   	padding-bottom: 3px;
+   }
+   .bom{
+   	margin-bottom:25px;
+   	
+   }
+   
+   .total{
+   	width:100%;
+   	display:inline-block;
+   	font-size:20px;
+   	height:1.56rem;
+   	text-align:left;
+   	padding-left:0.8rem;
+   	margin-bottom: 0.5px;
+   	
+   	
+ 
+   }
+ .totl{
+   	width:100%;
+   	display:inline-block;
+   	font-size:1.25rem;
+   	height:1.56rem;
+   	text-align:center;
+   	padding-left:0.8rem;
+   	margin-bottom:0.5rem;
+   	font-weight: bold;
+   	
+   	
+ 
+   }

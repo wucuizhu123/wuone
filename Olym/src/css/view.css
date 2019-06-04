@@ -1,0 +1,238 @@
+  #cell {
+		margin-top: 10px;
+		/*margin-left: 10px;*/
+		width: 100%;
+		height: 400px;
+		background: #F2F6FC;
+	}
+	#yy{
+		background:#fff;
+	}
+		
+	.tal {
+		margin-top: 10px;
+		width: 700px;
+		height: 500px;
+		background: #fff;
+	}
+	.el-button.is-round {
+		/* border-radius: 20px; */
+		padding: 12px 10px !important;
+		text-align:center;
+	}
+	.commersol .tabletop li{
+		float:left;
+		width:33.333%;
+		height:50px;
+		list-style: none;
+		background:#eee;
+		line-height:50px;
+	}
+	 .tablemove li{
+		float:left;
+		width:25%;
+		height:50px;
+		list-style: none;
+		background:#eee;
+		text-align:center;
+		line-height:50px;
+	}
+	.tabletop{
+		width:100%;
+	}
+	#searchertop {
+		width: 100%;
+		height: auto;
+		margin-top:10px;
+		margin-bottom:30px;
+		/*margin-bottom:30px;*/
+	}
+	.center{
+		margin-top:20px;
+		width:100%;
+		height:450px;
+	}
+	.center p{
+		width:500px;
+		height:30px;
+		line-height: 30px;
+	
+	}
+	
+	#myCharts {
+		background: #fff;
+		float: right;
+		border:1px solid #dedede;
+	    box-shadow:2px 5px 10px 5px #dedede ;
+		display: inline-block;
+
+	}
+	
+	#tablez {
+		width: 100%;
+		height: 420px;
+		display: inline-block;
+		/*border:1px solid #dedede;
+	    box-shadow:2px 5px 10px 5px #dedede ;*/
+		background: #fff;
+	}
+	#myhh{
+		clear:left;
+	}
+	#myCharty {
+		clear:left;
+		background: #fff;
+		margin-top:30px;
+		margin:0 auto;
+		/*margin-left:80px;*/
+		border:1px solid #dedede;
+	box-shadow:2px 5px 10px 5px #dedede ;
+	}
+	#segsstion{
+		margin-top:50px;
+	}
+	.commersol{
+		width:100%;
+		height:470px;
+		border:1px solid #dedede;
+	box-shadow:2px 5px 10px 5px #dedede ;
+	}
+	#itable #opin{
+		width:100%;
+		height:80px;
+		line-height:80px;
+		text-align: left;
+		font-size:30px;
+		/*border-bottom: 1px solid #dedede;*/
+	}
+	#itable table{
+		width: 85%;
+		margin:0 auto;
+	}
+	#itable{
+	  width: 100%;
+	  margin:0 auto;
+    height: auto;
+    border:1px solid #dedede;
+	box-shadow:2px 5px 10px 5px #dedede ;
+    /*margin-bottom: 20px;*/
+    text-align: center;
+    
+		
+	}
+	.centet{
+		width:100%;
+		border:1px solid #dedede;
+	    box-shadow:2px 5px 10px 5px #dedede ;
+	}
+	#expt{
+		display:inline-block;
+		width:100px;
+		height:80px;
+		line-height:80px;
+		float:right;
+	}
+	.el-radio-group{
+		width:300px;height:80px;float:left;
+	}
+	#itable tr label{
+		width:100px;
+		height:80px;
+		line-height:80px;
+		float:left;
+		font-size:30px;
+		/*border-bottom: 1px solid #dedede;*/
+		
+	}
+	#itable td{
+		height:80px;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #ffffff;
+		padding: 8px;
+		border-bottom: 1px solid #dedede;
+		background-color: #ffffff;
+	}
+	
+	#itable .leftone{
+		width:30%;
+		height:80px;
+		text-align:left;
+	}
+
+    .el-table thead {  
+    position: fixed !important;
+    }
+	#itable .contentcolor{
+		width:70%;
+		height:80px;
+	}
+	#segsstion{
+		clear:left;
+		width:700px;
+		margin-top:70px;
+		/*margin-left:80px;*/
+		background:#fff;
+	}
+	
+	.el-table{
+		width:100%;
+		height:350px;
+		overflow: auto;
+	}
+  .el-table th{
+	text-align:center;
+	border-bottom:1px solid #000000;
+	}
+     .el-table th, .el-table tr{
+		background:none;
+	}
+	.has-gutter{
+		background:#eee;
+		position: fixed !important;
+	}
+    ul{
+		display:block;
+	}
+	.commersol ul li{
+		background:#E6F1FE;
+		width:80px;
+		height:50px;
+		float:left;
+		line-height:50px;
+		list-style: none;
+	}
+	 .commersol ul li:hover{
+		background:#E6F1FE;
+		color:#eb6a1a;
+	}
+	.commersol  ul li:active{
+		color:#eb6a1a;
+	}
+	.center{
+		/*margin-bottom:50px;*/
+	}
+	#myCharto{
+		background: #fff;
+		margin:0 auto;
+		display: inline-block;
+		/*margin-top: 30px;*/
+		border:1px solid #dedede;
+	    box-shadow:2px 5px 10px 5px #dedede ;
+		
+	}
+	#table2{
+		width: 100%;
+		height: 400px;
+		display: inline-block;
+		/*margin-top: 30px;*/
+		background: #fff;
+	}
+	
+	#scorll{
+		width:93%;
+		margin:0 auto;
+	}
+	.el-row{
+		margin-bottom:50px;
+	}

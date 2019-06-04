@@ -1,0 +1,180 @@
+#yy{
+	width:auto;
+	height:100%;
+	overflow-y: auto;
+	text-align:center;
+	background:#fff;
+}
+.el-header .el-button{	
+	margin-top:10px;
+	margin-left:10px;
+}
+.dialog-footer{
+	text-align:center;
+}
+a{
+	text-decoration: none;
+	color:#000;
+	width:100%;
+	height:100%;
+}
+.login-right{
+	float:right;
+	margin-top:10px;
+}
+.login-left{
+	float:left;
+	display:inline-block;
+}
+.login-le ul{
+	width:400px;
+	height:40px;
+	float:left;
+	text-align:center;
+  margin-left:5.3rem;
+   margin-top:10px;
+	 overflow:hidden;
+}
+.login-le li{
+width:380px;
+height:40px;
+line-height:40px;
+font-size:18px;
+position: relative;
+top:0px;
+list-style: none;
+}
+.oneScll{
+	animation: myimg 5s linear infinite normal; 
+	
+}
+
+.twoScll{
+	animation: myoing 5s linear infinite normal; 
+}
+@keyframes myimg
+    {
+    from {top:40px;}
+    to {top:-60px;}
+}
+@keyframes myoing
+    {
+    from {top:50px;}
+    to {top:-60px;}
+}
+
+.login-right img{
+	border-radius: 50%;
+}
+.ueer{
+	width:200px;
+}
+.kok{
+	color:#ffd04b; 
+	margin-top:2rem;
+	 font-Size:13px;
+}
+
+
+.ueer li{
+	/* background:#ccc; */
+	width:200px;
+	height:40px;
+	color:#000;
+	text-align:center;
+	font-size:17px;
+	line-height:40px;
+	list-style: none;
+	
+}
+.ueer li:hover{
+	color:#ffd04b;
+	background:#61a0a8;
+} 
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: auto;
+    min-height: auto;
+  }
+
+.el-popover {
+	min-width:100px !important;
+}
+.el-header{
+	width:100%;
+	height:70px;
+	/* background:#61a0a8; */
+	background:rgba(39, 39, 39, 0.6);
+	font-size: 27px;
+	display:block;
+	color:#fff;
+	text-align:left;
+	line-height:70px;
+}
+.el-header .getout{
+	float:right;
+	font-size: 15px;
+}
+.changename{
+	color: #ffcf4a;
+	font-size:12px;
+}
+.el-header .user{
+	float:right;
+	font-size: 17px;
+}
+
+
+
+.el-menu{
+	border-right:0px;
+
+}
+
+.el-menu-item {
+	height:55px;
+	line-height:55px;
+	padding:5px 10px !important;
+	color:#fff;
+
+	
+}
+.el-menu-item [class^=el-icon-]{
+
+	text-align: left;
+	
+}
+.ueer{
+	color:#fff;
+}
+
+.el-main{
+	width:auto;
+	height:100%;
+	padding:0px;
+	background:#fff;
+}
+#aside{
+	width:200px;
+	height:1000px;
+	background:rgba(8, 8, 8, 0.5);
+	
+	text-align:left;
+}
+
+element .style{
+	padding-left:0px;
+}
+
+
+.el-container {
+    width: 100%;
+    height: 100%;
+    }
+
+
+
+
+
+
+

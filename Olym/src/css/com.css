@@ -1,0 +1,135 @@
+#yy {
+		width: auto;
+		height: 100%;
+		text-align: center;
+		background: #fff;
+	}
+	h1{
+		font-weight: normal;
+		margin-top: 1rem;
+	}
+	.el-row {
+		margin-bottom: 2rem;
+	}
+	
+	#cell {
+		width: 60%;
+		height: 18.75rem;
+		background: #fff;
+		float: left;
+	}
+	.el-button.is-round {
+		/* border-radius: 20px; */
+		padding: 12px 10px !important;
+		text-align:center;
+	}
+	
+	.tal {
+		width: 43.75rem;
+		height: 31.25rem;
+		background: #fff;
+	}
+	
+	#searchertop {
+		width: 100%;
+		height: auto;
+	}
+	
+	#tablev {
+		width: 31.25rem;
+		height: 25rem;
+		display: inline-block;
+		background: #fff;
+	}	
+	#myChartB {
+		width: 100%;
+		text-align: center;
+		background: #fff;
+		/* background: #fff; */
+	}
+	.el-input__inner{
+		/* font-size:1rem !important; */
+		font-size: unset !important;
+	}
+	
+	#change {
+		width:100%;
+		display: block;
+		margin-top:1rem;
+		
+	}
+	
+	#change ul li {
+		background: #fff;
+		width: 5rem;
+		height: 3.125rem;
+		float: left;
+		/*border-bottom: 1px solid #002060;*/
+		line-height: 3.125rem;
+		
+		list-style: none;
+	}
+	
+	#change ul li:hover,
+	#change ul li:active {
+		background: #E6F1FE;
+		color: #eb6a1a;
+	}
+	
+	#change ul li:active {
+		color: #eb6a1a;
+	}
+	
+	.el-row {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	
+	#scorll {
+		width: 93%;
+		margin: 0 auto;
+	}
+	
+	.mum {
+		width: 9.7% !important;
+		 margin-bottom:10px;
+		 /* font-size:0.5rem; */
+	}
+	.mume {
+		width: 16% !important;
+		 margin-bottom:10px;
+		 font-size:0.5rem;
+	}
+	.mump {
+		width: 8% !important;
+		 margin-bottom:10px;
+		 /* font-size:0.5rem; */
+	}
+	
+	.comelitte{
+			width:98%;
+			height:2.4rem;
+			line-height:2.4rem;
+			font-size: 1.2rem;
+			color:#000;
+			text-align: left;
+			border-bottom:1px solid #ccc;
+			margin:0 auto;
+			background:#fff;
+
+			border-radius:20px  20px 0 0;
+			
+		}
+		.littetop{
+	width:100%;
+	height:2.5rem;
+	background:#fff;	
+	border-radius:20px 20px 0 0;
+}
+	
+	.ko{ 
+		 background:#fff;
+			border-radius:0 0 20px  20px ;
+			/*border:1px solid #dedede;
+	 box-shadow:2px 5px 10px 5px #dedede ;*/
+	}

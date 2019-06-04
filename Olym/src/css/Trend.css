@@ -1,0 +1,147 @@
+#scorll {
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#yy {
+	width: auto;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+}
+.el-row {
+	padding:0px;
+	/*border:1px solid #13CE66;*/
+	margin-bottom:1rem;
+}
+
+.label-top {
+	margin-top: 1.2rem;
+}
+
+.consol {
+	margin-bottom: 0.7rem;
+	
+}
+
+.centerboton {
+	margin-top: 4.6rem;
+	margin-bottom: 3.6rem;
+}
+.el-input__inner{
+	padding-right:0px !important;
+}
+.comen {
+	width: 38% !important;
+	margin-bottom: 10px;
+}
+
+.come {
+	width: 10.5% !important;
+}
+
+.dom {
+	font-size: 0.9rem;
+}
+
+.thed {
+	background: #fff;
+	width: 100%;
+	height: 10rem;
+}
+
+.tre {
+	background: #fff;
+	/*float: left;*/
+}
+.contwo{
+	width: 35% !important;
+}
+
+.fokl {
+	font-size:0.7rem;
+	width: 22% !important;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.ko {
+	background: #fff;
+	border-radius: 0 0 20px 20px;
+	/*border: 1px solid #EEEEEE;*/
+	/*box-shadow:1px 1px 1px 1px #EEEEEE;*/
+	/*overflow: hidden;*/
+}
+
+.littetop {
+	width: 100%;
+	height: 2.5rem;
+	/*background:#46c5d4;*/
+	background: #fff;
+	border-radius: 20px 20px 0 0;
+	/*border: 1px solid #EEEEEE;*/
+}
+
+.comelitte {
+	width:97%;
+			height:2.4rem;
+			line-height:2.4rem;
+			font-size: 1.3rem;
+	/*color:#fff;*/
+	color: #000;
+	margin: auto;
+	/*text-align:center;*/
+	text-align: left;
+	background: #fff;
+	/*background:#46c5d4;*/
+	border-bottom:1px solid #ccc;
+	border-radius: 20px 20px 0 0;
+	/*box-shadow:1px 1px 1px 1px #EEEEEE;*/
+}
+		
+.table1{
+	width:95%;
+	height:22rem;
+	overflow: auto;
+	background:#fff;
+	text-align:center;
+		margin:0 auto;
+		
+		
+}
+*{
+	font-family:Arial, Helvetica, sans-serif;
+}
+.table1	table {
+	width:100%;
+	
+	height:21rem;
+	margin: 0 auto;
+	padding: 0;
+	font-family: verdana;
+	font-size: 11px;
+	color: #333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	margin-top:3px;
+	
+}
+
+
+.table1	table th {
+    width:5rem;
+	padding: 0;	
+	border-bottom: 1px solid #dedede;
+	padding: 0.5rem;
+    text-align:left;
+}
+.table1	table td {
+	width:5rem;
+	padding: 0;
+	text-align:left;
+	padding: 0.43rem;
+	border-bottom: 1px solid #dedede;
+	background-color: #ffffff;
+}

@@ -1,0 +1,265 @@
+*{
+    font-family:'Avenir', Helvetica, Arial, sans-serif;
+}
+.topone{
+width:37.5rem;
+height:37.5rem;
+position: absolute;
+z-index:10000;
+background:#fff;
+margin:0 auto;
+left:31.25rem;
+top:6.25rem;
+-webkit-border-radius: 5px;
+border-radius: 15px;
+-moz-border-radius: 5px;
+}
+
+.topone-loder  .el-form-item  {
+   width:90%;
+   margin-left:5%;
+
+}
+.topone-loder .el-input{
+ 
+    margin-bottom:0.4rem;
+}
+.topone-loder{
+     width:100%;
+height:100%;
+     position: absolute;
+z-index:1000;
+background: rgba(0,0,0,0.6);
+}
+.login-wrap{text-align:center;}
+input{display:block;
+    width:15.625rem;
+    height:2.5rem;
+    line-height:2.5rem;
+    margin:0 auto;
+    margin-bottom: 0.625rem;
+    outline:none; 
+    border:1px solid #000; 
+    padding:0.625rem;
+    box-sizing:border-box;}
+/*p{color:red;}*/
+
+span{cursor:pointer;}
+span:hover{color:#41b883;}
+
+.login-container {
+
+-webkit-border-radius: 5px;
+border-radius: 15px;
+-moz-border-radius: 5px;
+background-clip: padding-box;
+/* margin: 180px auto; */
+width: 21.8rem;
+height:21.8rem;
+padding: 1.56rem 2.18rem 1.56rem 2.18rem;
+/* background:#fff; */
+color:#fff;
+background: rgba(27, 27, 27, 0.7);
+border: 1px solid rgb(53, 52, 52);
+/* box-shadow: 0 0 25px #cac6c6; */
+
+}
+.conen{
+margin-left:30%;
+}
+.head{
+width:100%;
+height:100px;
+position:absolute;
+background: rgba(0,0,0,0.6);
+font-size: 6.25rem;
+display:block;
+color:#fff;
+text-align:left;
+line-height:6.25rem;
+}
+.changename{
+color: #ffd04b;
+font-size:1.06rem;
+}
+
+.head .left{
+margin-left: 17.5rem;
+}
+
+.up{
+    width:100%;
+    height:100%;
+     background: rgba(0,0,0,0.15);
+}
+.poer p{
+    font-size:1.75rem;
+    font-weight: bolder;
+    text-align:center;
+    margin-bottom: 1.875rem;
+}
+.comeE{
+    margin-top:3.75rem;
+    width:28.125rem;
+    
+    
+}
+.comeE .topOne{
+    font-size:2.5rem;
+    color:#f15b0f;
+}
+.comeE .topep{
+    font-size:40px;
+    color:rgb(19, 161, 243);;
+}
+.comeE .toptwo{
+    font-size:25px;
+    color:#fff;
+}
+.comeE .topthree{
+    font-size:0.93rem;
+    color:#fff;
+}
+.comeE .topOnep{
+    font-size:0.93rem;
+    color:rgb(46, 169, 240);
+}
+.comeC{
+    margin-top:120px;
+    font-size:3.4375rem;
+    margin-bottom:110px;
+}
+.come{
+    width: 40.625rem;
+    height:100%;
+    color:#fff;
+    font-size:0.93rem;
+    font-weight: bolder;
+    float: left;
+    position:absolute;
+   
+    animation:myfirst 1s;
+    -moz-animation:myfirst 1s;  /*Firefox*/ 
+    -o-animation:myfirst 1s;
+    -webkit-animation:myfirst 1s;
+    animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;  /*Firefox*/ 
+    -o-animation-fill-mode:forwards;
+ /*Safari 和 Chrome*/ 
+-webkit-animation-fill-mode:forwards;
+}
+@keyframes myfirst{
+    from {left:-300px;}
+    to {left:130px;}
+}
+@-webkit-keyframes myfirst  /*Safari 和 Chrome*/ 
+{
+        from {left:-300px;}
+         to {left:130px;}
+         }
+@-moz-keyframes myfirst  /*Firefox*/
+{
+    from {left:-300px;}
+    to {left:130px;}
+}
+
+@-o-keyframes myfirst  /*Opera*/
+{
+    from {left:-300px;}
+    to {left:130px;}
+}
+.el-form-item{
+    text-align:center;
+
+}
+.footer{
+margin-top:1.75rem;
+text-align:center;
+    
+}
+.footer ul{
+    margin:0 auto;
+}
+
+.footer ul li{
+    float:left;
+    text-align:center;
+    list-style: none;
+    width:40%;
+    
+}
+
+.commmenj{
+width:350px;
+height:330px;
+margin:0 auto;
+top:110px;
+float: right;
+position:absolute;
+animation:mymove 1s;
+-moz-animation:mymove 1s;  /*Firefox*/ 
+-o-animation:mymove 1s;
+-webkit-animation:mymove 1s;
+animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;  /*Firefox*/ 
+-o-animation-fill-mode:forwards;
+ /*Safari 和 Chrome*/ 
+-webkit-animation-fill-mode:forwards;
+}
+
+@keyframes mymove{
+    from {right:-350px;}
+    to {right:150px;}
+}
+@-webkit-keyframes mymove  /*Safari 和 Chrome*/ 
+{
+        from {right:-350px;}
+         to {right:150px;}
+         }
+@-moz-keyframes mymove  /*Firefox*/
+{
+    from {right:-350px;}
+    to {right:150px;}
+}
+
+@-o-keyframes mymove  /*Opera*/
+{
+    from {right:-350px;}
+    to {right:150px;}
+}
+
+.form-control{
+width:270px;
+flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+
+}
+.remember{
+width:15.625rem;
+text-align:left;
+
+
+}
+.forget{
+width:31.25rem;
+text-align:right;
+font-size:0.875rem;
+font-family:PingFang SC;
+
+}
+.remFor{
+margin-bottom: 0.625rem;
+padding-bottom: 0.625rem;
+}
+
+.tabsUser{
+display: inline-block;
+margin-left: 0px;
+margin-right:0px;
+text-align:center;
+font-size:1.56rem;
+}
+
+
+

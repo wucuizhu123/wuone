@@ -1,0 +1,70 @@
+.onechang{
+    width:100%;
+    height:430px;
+   
+}
+.el-form{
+    height: 430px !important;
+}
+.onechang .el-input{
+    width:80%;
+    
+}
+td{
+    width:100px;
+    border:none;
+    padding:0px !important;
+    text-align:left;
+
+}
+.el-table .cell{
+    white-space:pre-line !important;
+}
+/* .is-center{
+    padding:0px;
+} */
+
+.el-table thead{
+    color:#fff !important;
+    text-align:center;
+}
+table{
+    border-spacing:none !important;
+}
+.el-table tr{
+    background:none !important;
+}
+.hao{
+    float: left;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.onechang .el-form-item{
+   width:49%;
+   display:inline-block;
+   margin-bottom:10px;
+}
+.onechang .el-input__inner {
+    width:250px !important;
+}
+.all{
+    width:100% !important;
+}
+.all .el-input{
+    width:100% !important;
+}
+.el-button--mini{
+    padding:7px !important;
+}
+
+.prob{
+    width:90% !important;
+    display:inline-block;
+    height:130px;
+}
+
+.log{
+    width:100% !important;
+    height:250px;
+    overflow: auto;
+}

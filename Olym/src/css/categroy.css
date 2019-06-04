@@ -1,0 +1,116 @@
+#yy {
+		width: auto;
+		height: 100%;
+		overflow: auto;
+		text-align:center;
+	}
+	h1 {
+		font-weight: normal;
+		margin-top: 1rem;
+	}
+	p{
+		color:"#000";
+		text-align:left;
+		font-size:1.5rem;
+	}
+	.el-button.is-round {
+		/* border-radius: 20px; */
+		padding: 12px 10px !important;
+		text-align:center;
+		/* padding-right:0px !important; */
+	}
+	.el-input--suffix .el-input__inner{
+		padding-right:0px !important; 
+	}
+	.el-row{
+		padding:0px;
+		margin-bottom:1.7rem;
+		/*border:1px solid #00FF00;*/
+	}
+	#table4{
+		width:100%;
+		height:32.5rem;
+		overflow: auto;
+		  text-align: center;
+		margin-bottom: 3.125rem;
+		margin-top: 3.125rem;
+	}
+	#table3{
+		width:100%;
+		height:32.5rem;
+		text-align: center;
+		margin-bottom: 3.125rem;
+		margin-top: 3.125rem;
+		overflow: auto;
+	}
+	body {
+		margin: 0;
+	  }
+	.el-table th{
+		text-align:center;
+	}
+	.myharti{
+		margin-top:1.5rem;
+		margin-bottom: 1rem;
+	}
+	#timetwo{
+		width:30%;
+		height:18.75rem;
+		background:#F0C78A;
+		position:absolute;
+		left:43.75rem;
+		bottom:16.25rem;
+		z-index:5;
+	}
+	.el-table{
+		width:100%;
+		height:26.25rem;
+		overflow:auto;
+	}
+	.tabletop li{
+		float:left;
+		width:25%;
+		height:3.125rem;
+		list-style: none;
+		background:#eee;
+		line-height:3.125rem;
+	}
+	.el-table__header-wrapper{
+		display:none;
+	}
+	#scorll{
+		width:93%;
+		margin:0 auto;
+	}
+	.cou{
+		width:12% !important;
+		padding-right:0px !important; 	
+	}
+	.coue{
+		width:10% !important;	
+		font-size:0.9rem;
+	}
+		.comelitte{
+			width:90%;
+			height:2.4rem;
+			line-height:2.4rem;
+			font-size: 1.3rem;
+			color:#000;
+			text-align: left;
+			margin:0 auto;
+			border-bottom:1px solid #ccc;
+			background:#fff;
+			border-radius:20px  20px 0 0;
+			
+		}
+		.littetop{
+	width:100%;
+	height:2.5rem;
+	background:#fff;	
+	border-radius:20px 20px 0 0;
+}
+	.ko{ 
+		 background:#fff;
+			border-radius:0 0 20px  20px ;
+	
+	}

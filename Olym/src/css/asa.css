@@ -1,0 +1,263 @@
+
+*{
+    font-family:'Avenir', Helvetica, Arial, sans-serif;
+}
+.topone{
+width:600px;
+height:600px;
+position: absolute;
+z-index:10000;
+background:#fff;
+margin:0 auto;
+left:500px;
+top:100px;
+-webkit-border-radius: 5px;
+border-radius: 15px;
+-moz-border-radius: 5px;
+}
+
+.topone-loder  .el-form-item  {
+   width:90%;
+   margin-left:5%;
+
+}
+.topone-loder .el-input{
+ 
+    margin-bottom:7px;
+}
+.topone-loder{
+     width:100%;
+height:100%;
+     position: absolute;
+z-index:1000;
+background: rgba(0,0,0,0.6);
+}
+.login-wrap{text-align:center;}
+input{display:block;
+    width:250px;
+    height:40px;
+    line-height:40px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    outline:none; 
+    border:1px solid #000; 
+    padding:10px;
+    box-sizing:border-box;}
+/*p{color:red;}*/
+
+span{cursor:pointer;}
+span:hover{color:#41b883;}
+
+.login-container {
+
+-webkit-border-radius: 5px;
+border-radius: 15px;
+-moz-border-radius: 5px;
+background-clip: padding-box;
+/* margin: 180px auto; */
+width: 350px;
+height:350px;
+padding: 25px 35px 25px 35px;
+/* background:#fff; */
+color:#fff;
+background: rgba(27, 27, 27, 0.7);
+border: 1px solid rgb(53, 52, 52);
+/* box-shadow: 0 0 25px #cac6c6; */
+
+}
+.conen{
+margin-left:30%;
+}
+.head{
+width:100%;
+height:100px;
+position:absolute;
+background: rgba(0,0,0,0.6);
+font-size: 32px;
+display:block;
+color:#fff;
+text-align:left;
+line-height:100px;
+}
+.changename{
+color: #ffd04b;
+font-size:17px;
+}
+
+.head .left{
+margin-left: 280px;
+}
+
+.up{
+    width:100%;
+    height:100%;
+     background: rgba(0,0,0,0.15);
+}
+.poer p{
+    font-size:28px;
+    font-weight: bolder;
+    text-align:center;
+    margin-bottom: 30px;
+}
+.comeE{
+    margin-top:60px;
+    width:450px;
+    
+    
+}
+.comeE .topOne{
+    font-size:40px;
+    color:#f15b0f;
+}
+.comeE .topep{
+    font-size:40px;
+    color:rgb(19, 161, 243);;
+}
+.comeE .toptwo{
+    font-size:25px;
+    color:#fff;
+}
+.comeE .topthree{
+    font-size:15px;
+    color:#fff;
+}
+.comeE .topOnep{
+    font-size:15px;
+    color:rgb(46, 169, 240);
+}
+.comeC{
+    margin-top:120px;
+    font-size:55px;
+    margin-bottom:110px;
+}
+.come{
+    width: 650px;
+    height:100%;
+    color:#fff;
+    font-size:15px;
+    font-weight: bolder;
+    float: left;
+    position:absolute;
+   
+    animation:myfirst 1s;
+    -moz-animation:myfirst 1s;  /*Firefox*/ 
+    -o-animation:myfirst 1s;
+    -webkit-animation:myfirst 1s;
+    animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;  /*Firefox*/ 
+    -o-animation-fill-mode:forwards;
+ /*Safari 和 Chrome*/ 
+-webkit-animation-fill-mode:forwards;
+}
+@keyframes myfirst{
+    from {left:-300px;}
+    to {left:130px;}
+}
+@-webkit-keyframes myfirst  /*Safari 和 Chrome*/ 
+{
+        from {left:-300px;}
+         to {left:130px;}
+         }
+@-moz-keyframes myfirst  /*Firefox*/
+{
+    from {left:-300px;}
+    to {left:130px;}
+}
+
+@-o-keyframes myfirst  /*Opera*/
+{
+    from {left:-300px;}
+    to {left:130px;}
+}
+.el-form-item{
+    text-align:center;
+
+}
+.footer{
+margin-top:28px;
+text-align:center;
+    
+}
+.footer ul{
+    margin:0 auto;
+}
+
+.footer ul li{
+    float:left;
+    text-align:center;
+    list-style: none;
+    width:40%;
+    
+}
+
+.commmenj{
+width:350px;
+height:330px;
+margin:0 auto;
+top:110px;
+float: right;
+position:absolute;
+animation:mymove 1s;
+-moz-animation:mymove 1s;  /*Firefox*/ 
+-o-animation:mymove 1s;
+-webkit-animation:mymove 1s;
+animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;  /*Firefox*/ 
+-o-animation-fill-mode:forwards;
+ /*Safari 和 Chrome*/ 
+-webkit-animation-fill-mode:forwards;
+}
+
+@keyframes mymove{
+    from {right:-350px;}
+    to {right:150px;}
+}
+@-webkit-keyframes mymove  /*Safari 和 Chrome*/ 
+{
+        from {right:-350px;}
+         to {right:150px;}
+         }
+@-moz-keyframes mymove  /*Firefox*/
+{
+    from {right:-350px;}
+    to {right:150px;}
+}
+
+@-o-keyframes mymove  /*Opera*/
+{
+    from {right:-350px;}
+    to {right:150px;}
+}
+
+.form-control{
+width:270px;
+flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+
+}
+.remember{
+width:250px;
+text-align:left;
+
+
+}
+.forget{
+width:500px;
+text-align:right;
+font-size:14px;
+font-family:PingFang SC;
+
+}
+.remFor{
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+
+.tabsUser{
+display: inline-block;
+margin-left: 0px;
+margin-right:0px;
+text-align:center;
+font-size:25px;
+}
